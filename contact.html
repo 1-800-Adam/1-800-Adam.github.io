@@ -44,16 +44,16 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">MyPortfolio</h1>
+        <h1 class="sitename">Adam's Portfolio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a hidden href="services.html">Services</a></li>
+          <li><a hidden href="portfolio.html">Portfolio</a></li>
+          <li hidden class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -70,7 +70,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -104,16 +104,8 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call</h3>
-                <p>+1 5589 55488 55</p>
+                <h3>Location</h3>
+                <p>Detroit, MI</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -127,7 +119,7 @@
 
           </div>
 
-          <div class="col-lg-7">
+          <div hidden class="col-lg-7">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
               <div class="row gy-4">
 
@@ -170,14 +162,14 @@
   <footer id="footer" class="footer light-background">
 
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      <div hidden class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Adam's Portfolio</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a hidden href=""><i class="bi bi-twitter-x"></i></a>
+        <a hidden href=""><i class="bi bi-facebook"></i></a>
+        <a hidden href=""><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/adambrigmann/" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
