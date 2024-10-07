@@ -106,11 +106,11 @@
               <script type="application/json" class="swiper-config">
                 {
                   "loop": true,
-                  "speed": 600,
+                  "speed": 800,
                   "autoplay": {
                     "delay": 5000
                   },
-                  "slidesPerView": "auto",
+                  "slidesPerView": "1",
                   "pagination": {
                     "el": ".swiper-pagination",
                     "type": "bullets",
@@ -119,22 +119,22 @@
                 }
               </script>
 
-              <div class="swiper-wrapper align-items-center">
+              <div class="swiper-wrapper align-items-top">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                  <img src="assets/img/portfolio/Project-1/diagram.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                  <img src="assets/img/portfolio/Project-1/Project1Process.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                  <img src="assets/img/portfolio/Project-1/Controls-1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+                  <img src="assets/img/portfolio/Project-1/Controls-2.png" alt="">
                 </div>
 
               </div>
@@ -144,19 +144,23 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
+              <h3>Project 1: Digital Control Logic</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: PLC Programming</li>
+                <li><strong>Software</strong>: RSLogix Micro Starter Lite, RSLinx Classic Lite, RSLogix Emulate 500</li>
+                <li><strong>Course</strong>: PLCDojo.com > Applied Logic (Level 2)</li>
+                <li><strong>Project date</strong>: 03 October, 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/1-800-Adam/PLC-Notes" target="_blank">github.com/1-800-Adam/PLC-Notes</a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+              <h2>Digital Control Logic for a Pressure Tank Application</h2>
+              <ul>
+                <li>Customer specification is to maintain pressure in a tank between 90 and 110 PSI.</li>
+                <li>Tank will use 2 Digital Pressure Switches as well as a Compressor.</li>
+                <li>Pressure Switch 1 turns on at 90 PSI and Pressure Switch 2 turns on a 110 PSI.</li>
+                <li>An indicator light will also turn on when Pressure is above 90 PSI to indicate that work tool is ready for use.</li>
+              </ul>
             </div>
           </div>
 
