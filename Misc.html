@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Adam's Website</title>
+  <title>Starter Page - MyPortfolio Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="starter-page-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
@@ -84,104 +84,38 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container">
-        <h1>Portfolio Details</h1>
+        <h1>Misc (Templates, etc...)</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li class="current">Misc (Templates, etc...)</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Misc (Templates, etc...)</h2>
+        <p>A collection of miscellaneous templates and links...</p>
+      </div><!-- End Section Title -->
 
-        <div class="row gy-4">
+    </section><!-- /Starter Section Section -->
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 800,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "1",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-top">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Project-2/Diagram.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Project-2/FiniteStateDiagram.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Project-2/CodeSnip.png" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project 2: Digital Filling Station</h3>
-              <ul>
-                <li><strong>Category</strong>: PLC Programming</li>
-                <li><strong>Software</strong>: RSLogix Micro Starter Lite, RSLinx Classic Lite, RSLogix Emulate 500</li>
-                <li><strong>Course</strong>: PLCDojo.com > Applied Logic (Level 2)</li>
-                <li><strong>Project date</strong>: 07 October, 2024</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/1-800-Adam/PLC-Notes/blob/f62c56ac2374f3cf1401f28ad2e05537d7c78ed4/PLC%20Fundamentals%20(Level%202)/attachments/Project%202%20-%20Digital%20Filling%20Station.pdf" 
-                  target="_blank">Project 2 - Digital Filling Station.pdf</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-
-              <h2>Pecan and Walnut Filling Machine</h2>
-              <ul>
-                <li>Machine that will fill empty boxes with either Pecans or Walnuts.</li>
-                <li>This machine will move empty boxes down a conveyor line until reaching a Proximity Sensor.</li>                
-                <li>Afterwards, a Photo Eye reads either a Red or Blue barcode to determine type of Nut</li>
-                <li>Once a box is full, a Level sensor signals the PLC to continue to move the box down the line</li>
-              </ul>
-
-              <h5>Custom Additions:</h5>
-              <ul>
-                <li>System for keeping track of machine states:</li>
-                <ol><strong>S0: </strong>Emergency Stop</ol>
-                <ol><strong>S1: </strong>Initial Condition for Motor Start</ol>
-                <ol><strong>S2: </strong>Box Arrives at Filling Station</ol>
-                <ol><strong>S3: </strong>Box Filling with Pecans (Red Barcode)</ol>
-                <ol><strong>S4: </strong>Box Filling with Walnuts (Blue Barcode)</ol>
-                <ol><strong>S5: </strong>Box Filling Complete (Includes 5 second timer to run conveyor before returning to State 1)</ol>
-                <li>Emergency Stop Button and Machine Reset Button</li>                
-                <li><strong>MODE STR: </strong>"Mode String" for easy checking on the machine system mode as a string</li>
-              </ul>
-            </div>
-
-          </div>
-
+    <div class="container">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/Misc/DataFileImage (Small).png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">DataFile Template</h5>
+          <p class="card-text">Track the variables in your Data Files using this GoogleSheets Template. Very handy for RSLogix Micro Starter Lite as it does not have AddressWizard for AutoFill</p>
+          <a href="https://docs.google.com/spreadsheets/d/1APY6ZYkW5Ri102nrqk3s50NMDwLXUXLQWyU8Em5qayI/edit?usp=sharing" Target="_blank" class="btn btn-primary">Link to GoogleSheet</a>
         </div>
-
       </div>
-
-    </section><!-- /Portfolio Details Section -->
+      <p></p>
+    </div>
 
   </main>
 
