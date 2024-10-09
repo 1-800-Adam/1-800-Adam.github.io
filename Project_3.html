@@ -137,7 +137,6 @@
                 <div class="swiper-slide">
                   <iframe title="vimeo-player" src="https://player.vimeo.com/video/1018045526?h=1d2776e1eb" width="840" height="360" frameborder="0"    allowfullscreen></iframe>
                 </div>
-
               </div>
             </div>
           </div>
@@ -150,31 +149,34 @@
                 <li><strong>Software</strong>: RSLogix Micro Starter Lite, RSLinx Classic Lite, RSLogix Emulate 500</li>
                 <li><strong>Course</strong>: PLCDojo.com > Applied Logic (Level 2)</li>
                 <li><strong>Project date</strong>: 09 October, 2024</li>
-                <li><strong>Project pdf</strong>: <a href="https://github.com/1-800-Adam/PLC-Notes/blob/f62c56ac2374f3cf1401f28ad2e05537d7c78ed4/PLC%20Fundamentals%20(Level%202)/attachments/Project%202%20-%20Digital%20Filling%20Station.pdf" 
-                  target="_blank">Project 2 - Digital Filling Station.pdf</a></li>
+                <li><strong>Project pdf</strong>: <a href="https://github.com/1-800-Adam/PLC-Notes/blob/69c62076dc8795e79b788a3a0b40d2dee2ffbc37/PLC%20Fundamentals%20(Level%202)/attachments/Project%203%20-%20Inventory%20Management.pdf" 
+                  target="_blank">Project 3 - Inventory Management.pdf</a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
 
-              <h2>Pecan and Walnut Filling Machine</h2>
+              <h2>A Simple Inventory Management PLC Program</h2>
               <ul>
-                <li>Machine that will fill empty boxes with either Pecans or Walnuts.</li>
-                <li>This machine will move empty boxes down a conveyor line until reaching a Proximity Sensor.</li>                
-                <li>Afterwards, a Photo Eye reads either a Red or Blue barcode to determine type of Nut</li>
-                <li>Once a box is full, a Level sensor signals the PLC to continue to move the box down the line</li>
+                <li>This program will take in a string (Simulating a Barcode Reader Input) and will parse string
+                  to locate the the Part Number, Quantity and Direction (Checking Parts In or Out of the system).
+                </li>
+                <li>Currently tracks three active part numbers located in the Part Number String File.</li>                
+                <li>System will not add part numbers that do not exist.</li>
+                <li>System simulated a PLC program performing a task that should be done using a traditional programming language.</li>
               </ul>
 
               <h5>Custom Additions:</h5>
               <ul>
-                <li>System for keeping track of machine states:</li>
-                <ol><strong>S0: </strong>Emergency Stop</ol>
-                <ol><strong>S1: </strong>Initial Condition for Motor Start</ol>
-                <ol><strong>S2: </strong>Box Arrives at Filling Station</ol>
-                <ol><strong>S3: </strong>Box Filling with Pecans (Red Barcode)</ol>
-                <ol><strong>S4: </strong>Box Filling with Walnuts (Blue Barcode)</ol>
-                <ol><strong>S5: </strong>Box Filling Complete (Includes 5 second timer to run conveyor before returning to State 1)</ol>
-                <li>Emergency Stop Button and Machine Reset Button</li>                
-                <li><strong>MODE STR: </strong>"Mode String" for easy checking on the machine system mode as a string</li>
+                <li>System will provide alarms to the user if there is an attempt to overdraw an amount greater than the current Inventory.</li>
+                <li>System will also provide an alarm if the part number is not recognized upon scan.</li>
+                <li>If there are no errors, system will provide feedback to let the user know there was a good scan. </li>
+              </ul>
+                
+              <h5>Opportunities for Improvement:</h5>
+              <ul>
+                <li>Addition of a way to save or export inventory data. </li>
+                <li>Reorganizing system to allow for additional part number to be added with ease instead of being hard coded. </li>
+                <li>Ability to check the character limit to make sure that the scanned part number is within specification. </li>                 
               </ul>
             </div>
 
