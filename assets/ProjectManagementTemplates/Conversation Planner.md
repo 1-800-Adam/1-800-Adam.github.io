@@ -1,6 +1,6 @@
 # Conversation Planner
-Conversation With: 
-When: 
+- Conversation With: 
+- When: 
 ## What Is My Intent?
 ---
 - Item #1

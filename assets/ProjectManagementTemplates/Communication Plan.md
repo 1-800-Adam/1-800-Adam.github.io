@@ -1,7 +1,7 @@
 # Communication Plan
-Project Name: 
-Date: 
-Prepared by: 
+- Project Name: 
+- Date: 
+- Prepared by: 
 ## Communication Item #1:
 ---
 - **WHAT**

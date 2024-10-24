@@ -1,7 +1,7 @@
 # Key Stakeholder Interview
-Interviewee: 
-Interviewer: 
-Date:
+- Interviewee: 
+- Interviewer: 
+- Date:
 ## Project Purpose
 ---
 (Key reasons for the project)

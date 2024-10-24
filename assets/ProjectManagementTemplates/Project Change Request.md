@@ -1,7 +1,7 @@
 # Project Change Request
-Project Name: 
-Request Made By: 
-Date: 
+- Project Name: 
+- Request Made By: 
+- Date: 
 ## Proposed Project Change Details:
 ---
 - Item #1
@@ -14,22 +14,22 @@ Date:
 - Item #3
 ## How Will This Change Affect Project Constraints:
 ---
-Time:
-Scope:
-Quality: 
-Resources:
-Budget: 
-Risks:
+- Time:
+- Scope:
+- Quality: 
+- Resources:
+- Budget: 
+- Risks:
 ## Key Stakeholder Approval:
 ---
-Name: 
-Signature: 
-Date: 
+- Name: 
+- Signature: 
+- Date: 
 
-Name: 
-Signature: 
-Date: 
+- Name: 
+- Signature: 
+- Date: 
 
-Name: 
-Signature: 
-Date: 
+- Name: 
+- Signature: 
+- Date: 

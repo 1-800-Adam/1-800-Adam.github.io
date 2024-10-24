@@ -1,8 +1,8 @@
 # Project Scope Statement
-Project Name: 
-Project Start Date: 
-Project Duration: 
-Prepared By: 
+- Project Name: 
+- Project Start Date: 
+- Project Duration: 
+- Prepared By: 
 ## Project Purpose:
 ---
 - Details...
