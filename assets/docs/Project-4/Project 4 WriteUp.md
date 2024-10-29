@@ -1,3 +1,4 @@
+# Multi-Position Servo Application
 - Project Name: Multi-Position Servo Application
 - Project Completed: 10/29 
 - Prepared By: Adam
@@ -14,13 +15,13 @@
 ## Project Description:
 ---
 - Diagram of the System is below:
-	- ![[https://1-800-adam.github.io/assets/docs/Project-4/attachments/DIAGRAM.svg]] ![image info](./attachments/DIAGRAM.svg)
+	- ![System Diagram](./attachments/DIAGRAM.svg)
 - Machine will have several Positions (P1...P4) and States (S0...S8)
-	- [[STATESPOSITIONS.png]]
+	- ![States and Positions](./attachments/STATESPOSITIONS.png)
 	- **Machine Positions**: describe the position of the cam lobe
 	- **Machine States**: describes the states of the machine to control logic and motor operation
 - Machine States are defined as the following:
-	- [[Pasted image 20241029143725.png]]
+	- ![State Diagram](./attachments/State_Diagram.png)
 ## Desired Results:
 ---
 - System should be able to start in the Homing state to relocate the Cam to the Home Switch position
@@ -40,7 +41,7 @@
 - Machine does not need an ESTOP button, but instead will use a RESET to interrupt the sequence and skip all positions
 ## Acceptance Criteria:
 ---
-- Passes instructor outlined test cases per: [Project 4 - Multi-Position Servo Application.pdf](https://1-800-adam.github.io/assets/docs/Project-4/Project%204%20-%20Multi-Position%20Servo%20Application.pdf)
+- Passes instructor outlined test cases per: [Paul Lynn's PLC Dojo > Applied Logic (Level 2) > Project 4](https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification)
 ## Project Walkthrough:
 ---
 - There are 4 project files:
@@ -59,14 +60,14 @@
 	- 27 - Str Mgr
 		- Management of the Strings to Output the Machine State and Position to the string files
 			- ST9 - MC POS, Machine Position Strings
-				- [[Pasted image 20241025173706.png]]
+				- ![String File ST9](./attachments/ST9.png)
 			- ST11 - MC STATE, Machine State Strings
-				- [[Pasted image 20241025173720.png]]
+				- ![String File ST11](./attachments/ST11.png)
 	- 255 - Init
 		- Initializes the program to state 0 for Homing
 ## Program PDF:
 ---
-- Link to the Project Program RSLogix 500 is here: https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification
+- Link to the Project Program RSLogix 500 is here: [Project 4 - Multi-Position Servo Application.pdf](https://1-800-adam.github.io/assets/docs/Project-4/Project%204%20-%20Multi-Position%20Servo%20Application.pdf)
 ## Post-Project Notes:
 ---
 - Lessons Learned
