@@ -1,7 +1,7 @@
 # Multi-Position Servo Application
 - Project Name: Multi-Position Servo Application
 - Project Completed: 10/29 
-- Prepared By: Adam
+- Prepared By: Adam Brigmann
 ## Project Purpose:
 ---
 - Design a PLC Program for a modular water treatment system that is to be integrated into an existing system.
