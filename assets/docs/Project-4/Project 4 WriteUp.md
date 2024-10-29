@@ -14,13 +14,13 @@
 ## Project Description:
 ---
 - Diagram of the System is below:
-	- ![[https://1-800-adam.github.io/assets/docs/Project-4/attachments/DIAGRAM.svg]] ![image info](./attachments/DIAGRAM.svg)
+	- ![System Diagram](./attachments/DIAGRAM.svg)
 - Machine will have several Positions (P1...P4) and States (S0...S8)
-	- [[STATESPOSITIONS.png]]
+	- ![States and Positions](./attachments/STATESPOSITIONS.png)
 	- **Machine Positions**: describe the position of the cam lobe
 	- **Machine States**: describes the states of the machine to control logic and motor operation
 - Machine States are defined as the following:
-	- [[Pasted image 20241029143725.png]]
+	- ![State Diagram](./attachments/State_Diagram.png)
 ## Desired Results:
 ---
 - System should be able to start in the Homing state to relocate the Cam to the Home Switch position
@@ -59,9 +59,9 @@
 	- 27 - Str Mgr
 		- Management of the Strings to Output the Machine State and Position to the string files
 			- ST9 - MC POS, Machine Position Strings
-				- [[Pasted image 20241025173706.png]]
+				- ![String File ST9](./attachments/ST9.png)
 			- ST11 - MC STATE, Machine State Strings
-				- [[Pasted image 20241025173720.png]]
+				- ![String File ST11](./attachments/ST11.png)
 	- 255 - Init
 		- Initializes the program to state 0 for Homing
 ## Program PDF:
