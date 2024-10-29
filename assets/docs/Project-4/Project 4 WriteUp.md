@@ -40,7 +40,7 @@
 - Machine does not need an ESTOP button, but instead will use a RESET to interrupt the sequence and skip all positions
 ## Acceptance Criteria:
 ---
-- Passes instructor outlined test cases per: [Project 4 - Multi-Position Servo Application.pdf](https://1-800-adam.github.io/assets/docs/Project-4/Project%204%20-%20Multi-Position%20Servo%20Application.pdf)
+- Passes instructor outlined test cases per: [PLC Dojo > Project 4](https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification)
 ## Project Walkthrough:
 ---
 - There are 4 project files:
@@ -66,7 +66,7 @@
 		- Initializes the program to state 0 for Homing
 ## Program PDF:
 ---
-- Link to the Project Program RSLogix 500 is here: https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification
+- Link to the Project Program RSLogix 500 is here: [Project 4 - Multi-Position Servo Application.pdf](https://1-800-adam.github.io/assets/docs/Project-4/Project%204%20-%20Multi-Position%20Servo%20Application.pdf)
 ## Post-Project Notes:
 ---
 - Lessons Learned
