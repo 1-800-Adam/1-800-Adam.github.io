@@ -1,3 +1,4 @@
+# Multi-Position Servo Application
 - Project Name: Multi-Position Servo Application
 - Project Completed: 10/29 
 - Prepared By: Adam
@@ -40,7 +41,7 @@
 - Machine does not need an ESTOP button, but instead will use a RESET to interrupt the sequence and skip all positions
 ## Acceptance Criteria:
 ---
-- Passes instructor outlined test cases per: [PLC Dojo > Project 4](https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification)
+- Passes instructor outlined test cases per: [Paul Lynn's PLC Dojo > Applied Logic (Level 2) > Project 4](https://www.plcdojo.com/courses/take/applied-logic/lessons/15204142-project-specification)
 ## Project Walkthrough:
 ---
 - There are 4 project files:
