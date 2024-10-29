@@ -14,7 +14,7 @@
 ## Project Description:
 ---
 - Diagram of the System is below:
-	- ![[https://1-800-adam.github.io/assets/docs/Project-4/attachments/DIAGRAM.svg]]
+	- ![[https://1-800-adam.github.io/assets/docs/Project-4/attachments/DIAGRAM.svg]] ![image info](./attachments/DIAGRAM.svg)
 - Machine will have several Positions (P1...P4) and States (S0...S8)
 	- [[STATESPOSITIONS.png]]
 	- **Machine Positions**: describe the position of the cam lobe
